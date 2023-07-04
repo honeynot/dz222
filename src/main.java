@@ -4,7 +4,7 @@ public class Main {
         int accountsRefill;
         int bonus;
         accountsRefill = 1100;
-        if(accountsRefill > threshold) {
+        if (accountsRefill > threshold) {
             bonus = accountsRefill / 100;
         } else {
             bonus = 0;
